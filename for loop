@@ -1,0 +1,13 @@
+#for i in range (10):
+ #   print(f"hall : {i}")
+  #  i += 1
+#a = 0
+# for i in range(10):
+    #a += i
+    #print(a)
+total = 0
+num = input("enter the number")
+for i in range(0,len(num)):
+  total +=int(num[i])
+  
+print(total)
